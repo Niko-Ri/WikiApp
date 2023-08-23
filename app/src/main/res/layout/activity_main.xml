@@ -1,76 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <ScrollView
-        android:layout_width="408dp"
-        android:layout_height="731dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MEC-Wiki"
+        android:gravity="center"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+    <Button
+        android:id="@+id/btn_mechanic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Mechanik"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="20dp" />
 
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="MEC-Wiki"
-                android:textAlignment="center"
-                android:textSize="48sp"
-                android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="20dp" />
 
-            <Button
-                android:id="@+id/btnMechanic"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:text="@string/Mechanik" />
-
-            <Button
-                android:id="@+id/button18"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button17"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button16"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button15"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button14"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button13"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:text="Button" />
-        </LinearLayout>
-    </ScrollView>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
