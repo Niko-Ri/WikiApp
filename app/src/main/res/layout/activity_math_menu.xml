@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".mainmenu.submenu.MechanicMenu">
+    tools:context=".mainmenu.MathMenu">
 
     <Button
         android:id="@+id/btnBack"
@@ -15,5 +15,4 @@
         android:text="Back"
         android:layout_marginBottom="10dp"
         android:layout_marginHorizontal="20dp" />
-
 </LinearLayout>
