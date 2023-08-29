@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.WikiApp" parent="Base.Theme.WikiApp" />
+    <style name="Theme.WikiApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.WikiApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.WikiApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
